@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online rezervácia | Kozmetický salón</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">LOGO</a>
+        <button class="menu-toggle" type="button" aria-label="Otvoriť menu" aria-controls="site-nav" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Hlavná navigácia">
+          <a href="o-nas.html">O nás</a>
+          <a href="cennik.html">Cenník</a>
+          <a href="rezervacia.html">Rezervácia</a>
+          <a href="fotogaleria.html">Fotogaléria</a>
+          <a class="nav-cta" href="rezervacia.html">Objednať sa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container" style="padding: 4rem 0;">
+      <h1>Online rezervácia</h1>
+      <p style="margin-top: 0.5rem;">Vyberte si službu a termín, ozveme sa vám s potvrdením.</p>
+
+      <form style="margin-top: 2rem; display: grid; gap: 1rem; max-width: 450px;">
+        <label>
+          Meno a priezvisko:<br />
+          <input type="text" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem;" />
+        </label>
+        <label>
+          Telefónne číslo:<br />
+          <input type="tel" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem;" />
+        </label>
+        <label>
+          Služba:<br />
+          <select style="width: 100%; padding: 0.5rem; margin-top: 0.25rem;">
+            <option>Ošetrenie pleti</option>
+            <option>Obočie</option>
+            <option>Mihalnice</option>
+          </select>
+        </label>
+        <label>
+          Preferovaný dátum:<br />
+          <input type="date" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem;" />
+        </label>
+        <button type="submit" class="button" style="cursor: pointer;">Odoslať rezerváciu</button>
+      </form>
+    </main>
+
+    <footer class="contact container">
+      <p>
+        <span>Kontakt: Vlčince, Žilina</span>
+        <span class="contact-divider" aria-hidden="true">|</span>
+        <span>Otváracie hodiny: Po-Pi 8:00 - 17:00</span>
+      </p>
+    </footer>
+  </body>
+</html>
