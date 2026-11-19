@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O nás | Kozmetický salón</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">LOGO</a>
+        <button class="menu-toggle" type="button" aria-label="Otvoriť menu" aria-controls="site-nav" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Hlavná navigácia">
+          <a href="o-nas.html">O nás</a>
+          <a href="cennik.html">Cenník</a>
+          <a href="rezervacia.html">Rezervácia</a>
+          <a href="fotogaleria.html">Fotogaléria</a>
+          <a class="nav-cta" href="rezervacia.html">Objednať sa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container" style="padding: 4rem 0;">
+      <h1>O našom salóne</h1>
+      <p style="margin-top: 1rem; max-width: 65ch;">
+        Vitajte v našom kozmetickom salóne vo Vlčincoch v Žiline. Špecializujeme sa na profesionálnu starostlivosť o pleť, úpravu obočia a mihalníc s dôrazom na vašu prirodzenú krásu.
+      </p>
+    </main>
+
+    <footer class="contact container">
+      <p>
+        <span>Kontakt: Vlčince, Žilina</span>
+        <span class="contact-divider" aria-hidden="true">|</span>
+        <span>Otváracie hodiny: Po-Pi 8:00 - 17:00</span>
+      </p>
+    </footer>
+  </body>
+</html>
