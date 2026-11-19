@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cenník | Kozmetický salón</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">LOGO</a>
+        <button class="menu-toggle" type="button" aria-label="Otvoriť menu" aria-controls="site-nav" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Hlavná navigácia">
+          <a href="o-nas.html">O nás</a>
+          <a href="cennik.html">Cenník</a>
+          <a href="rezervacia.html">Rezervácia</a>
+          <a href="fotogaleria.html">Fotogaléria</a>
+          <a class="nav-cta" href="rezervacia.html">Objednať sa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container" style="padding: 4rem 0;">
+      <h1>Cenník služieb</h1>
+      <div style="margin-top: 2rem; display: grid; gap: 1rem; max-width: 600px;">
+        <p><strong>Hĺbkové čistenie pleti:</strong> 35 €</p>
+        <p><strong>Hydratačné ošetrenie pleti:</strong> 40 €</p>
+        <p><strong>Úprava a farbenie obočia:</strong> 15 €</p>
+        <p><strong>Laminácia obočia:</strong> 28 €</p>
+        <p><strong>Lash lifting mihalníc:</strong> 32 €</p>
+      </div>
+    </main>
+
+    <footer class="contact container">
+      <p>
+        <span>Kontakt: Vlčince, Žilina</span>
+        <span class="contact-divider" aria-hidden="true">|</span>
+        <span>Otváracie hodiny: Po-Pi 8:00 - 17:00</span>
+      </p>
+    </footer>
+  </body>
+</html>
