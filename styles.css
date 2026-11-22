@@ -473,3 +473,8 @@ button:focus-visible {
   color: #4f6348;
   flex-shrink: 0;
 }
+.category-skin .category-art {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.25), rgba(20, 28, 22, 0.35)),
+    url("img/plet.jpg") center / cover no-repeat;
+}
