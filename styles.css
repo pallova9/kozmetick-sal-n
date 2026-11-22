@@ -488,3 +488,16 @@ button:focus-visible {
     linear-gradient(rgba(255, 255, 255, 0.25), rgba(20, 28, 22, 0.35)),
     url("img/lashes.jpg") center / cover no-repeat;
 }
+.about-photo {
+  margin-top: 1.75rem;
+  max-width: 680px;
+}
+
+.about-photo img {
+  display: block;
+  width: 100%;
+  max-height: 340px;
+  object-fit: cover;
+  border-radius: var(--radius-lg, 16px);
+  box-shadow: var(--shadow);
+}
