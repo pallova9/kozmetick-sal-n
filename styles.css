@@ -134,9 +134,8 @@ button {
   border: 1px solid rgba(85, 119, 106, 0.13);
   border-radius: var(--radius-lg);
   background:
-    radial-gradient(ellipse at 18% 84%, rgba(234, 214, 197, 0.72), transparent 34%),
-    radial-gradient(ellipse at 82% 18%, rgba(183, 205, 190, 0.78), transparent 36%),
-    linear-gradient(125deg, #f1eee8 0%, #e8eee8 52%, #dce8df 100%);
+    linear-gradient(rgba(255, 255, 255, 0.55), rgba(242, 245, 239, 0.65)),
+    url("hero.jpg") center / cover no-repeat;
   box-shadow: var(--shadow);
 }
 
