@@ -478,3 +478,8 @@ button:focus-visible {
     linear-gradient(rgba(255, 255, 255, 0.25), rgba(20, 28, 22, 0.35)),
     url("img/plet.jpg") center / cover no-repeat;
 }
+.category-brows .category-art {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.25), rgba(20, 28, 22, 0.35)),
+    url("img/eyebrow.jpg") center / cover no-repeat;
+}
