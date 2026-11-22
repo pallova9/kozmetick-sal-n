@@ -458,3 +458,9 @@ button:focus-visible {
   width: auto;
   display: block;
 }
+.hero-svg {
+  color: #4f6348;
+  max-width: 120px;
+  height: auto;
+  pointer-events: none;
+}
