@@ -464,3 +464,13 @@ button:focus-visible {
   height: auto;
   pointer-events: none;
 }
+.section-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.heading-icon {
+  color: #4f6348;
+  flex-shrink: 0;
+}
